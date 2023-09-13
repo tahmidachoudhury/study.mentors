@@ -51,11 +51,25 @@ h1{
 }
 
 .box{
-    width: 155px;
+    width: inherit;
     text-align: center;
 }
 
-.img{
-    padding: 75px;
+.AL .img.phy{
+    padding: 100px;
     border: 1px solid white;
+}
+
+.gcse .box .img{
+    padding: 150px;
+    border: 1px solid white;
+}
+
+.chem img{
+    width: 200px;
+    height: auto;
+    padding: 0;
+    border: 1px solid white;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
