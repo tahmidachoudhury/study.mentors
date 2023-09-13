@@ -1,0 +1,61 @@
+*{
+    background-color: rgb(42, 42, 42);
+    color: white;
+    margin: 0;
+}
+
+.wrapper{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100vh;
+}
+
+/*HEADER*/
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+/*-------------------------------------------------------
+/*main*/
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    height: 350px;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-end;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.bio p{
+    width: 500px;
+    font-size: 1.5rem;
+}
+/*------------------------------------------------------
+/*subjects*/
+
+.subjects{
+    padding: 100px;
+}
+
+.AL, .gcse{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.box{
+    width: 155px;
+    text-align: center;
+}
+
+.img{
+    padding: 75px;
+    border: 1px solid white;
+}
