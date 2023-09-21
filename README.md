@@ -1,2 +1,2 @@
-# study.mentors
+# treepeak
 website for a tuition company
