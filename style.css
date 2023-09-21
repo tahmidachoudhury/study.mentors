@@ -2,14 +2,17 @@
     background-color: rgb(47, 47, 47);
     color: white;
     margin: 0;
+    overflow-x: hidden;
 }
 
-.wrapper{
-    margin-left: 50px;
-    margin-right: 50px;
+.body{
     height: 100vh;
 }
 
+.wrapper{
+    padding-left: 50px;
+    padding-right: 50px;
+}
 /*HEADER*/
 .header{
     display: flex;
@@ -55,21 +58,51 @@ h1{
     text-align: center;
 }
 
-.AL .img.phy{
-    padding: 100px;
+.AL .img{
+    border-radius: 16px;
     border: 1px solid white;
 }
 
 .gcse .box .img{
     padding: 150px;
     border: 1px solid white;
+    border-radius: 16px;
 }
 
-.chem img{
-    width: 200px;
-    height: auto;
-    padding: 0;
-    border: 1px solid white;
-    padding-top: 30px;
-    padding-bottom: 30px;
+
+/*---------------------------------------------*/
+.auto {
+    display: block;
+    margin: 20px;
+    width: 300px;
+    height: 20px;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.phy.auto:hover{
+    background-color: rgb(67, 142, 167);
+    color: black;
+}
+
+.img{
+    text-align: left;
+}
+
+h3{
+    text-align: center;
+}
+
+h3, p{
+    background-color: inherit;
+    color: inherit;
+}
+
+.chem.auto:hover{
+    background-color: rgba(243, 142, 74, 0.766);
+    color: black;
+}
+
+.Amths.auto:hover{
+    background-color: rgba(45, 255, 213, 0.645);
+    color: black;
 }
