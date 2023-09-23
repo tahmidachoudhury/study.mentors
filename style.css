@@ -60,11 +60,9 @@ h1{
 
 .AL .img{
     border-radius: 16px;
-    border: 1px solid white;
 }
 
 .gcse .box .img{
-    padding: 150px;
     border: 1px solid white;
     border-radius: 16px;
 }
@@ -97,8 +95,10 @@ h3, p{
     color: inherit;
 }
 
+
 .chem.auto:hover{
     background-color: rgba(243, 142, 74, 0.766);
+    border: 1px solid white;
     color: black;
 }
 
