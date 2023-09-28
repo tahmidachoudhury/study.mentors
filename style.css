@@ -19,19 +19,20 @@
     display: flex;
     justify-content: space-between;
 }
+
+.logo{
+    height: 60px;
+}
 /*-------------------------------------------------------
 /*main*/
 .main-section{
     display: flex;
     justify-content: space-between;
+    align-items: end;
     padding-top: 100px;
     height: 350px;
 }
 
-.logo{
-    display: flex;
-    align-items: flex-end;
-}
 
 h1{
     font-size: 5rem;
