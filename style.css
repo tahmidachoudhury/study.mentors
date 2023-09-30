@@ -31,6 +31,8 @@
     align-items: end;
     padding-top: 100px;
     height: 350px;
+    border: 1px solid;
+    border-radius: 16px;
 }
 
 
